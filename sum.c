@@ -1,8 +1,12 @@
 #include<stdio.h>
 
 int main(){
-     int x = 10 ;
-     int y = 30 ;
-
-     printf("%d", x + y );
+     int x;
+     int y;
+     printf("Enter A Number :- ");
+     scanf("%d",&x);
+     printf("Enter A Number :- ");
+     scanf("%d",&y);
+     int sum = x + y ;
+     printf("The Sum Of Two Numbers = %d", sum);
 }
