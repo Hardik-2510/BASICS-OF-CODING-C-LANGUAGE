@@ -171,3 +171,92 @@ void getResults()
         printf("No winner\n");
     }
 }
+
+
+/*
+Expected Output :-
+
+Enter the number of candidates: 4
+Available Symbols: 
+1  !
+2  @
+3  #
+4  $
+5  %
+6  ^
+7  &
+8  *
+9  ~
+10  +
+
+Enter the symbol number of candidate 1: 1
+Enter the name of candidate 1: HArdik
+Available Symbols: 
+2  @
+3  #
+4  $
+5  %
+6  ^
+7  &
+8  *
+9  ~
+10  +
+
+Enter the symbol number of candidate 2: 5
+Enter the name of candidate 2: hardiik
+Available Symbols: 
+2  @
+3  #
+4  $
+6  ^
+7  &
+8  *
+9  ~
+10  +
+
+Enter the symbol number of candidate 3: 8
+Enter the name of candidate 3: haardik
+Available Symbols: 
+2  @
+3  #
+4  $
+6  ^
+7  &
+9  ~
+10  +
+
+Enter the symbol number of candidate 4: 10
+Enter the name of candidate 4: haaarrdik
+Enter the number of voters: 8
+HArdik		hardiik		haardik		haaarrdik		
+  !			  %			  *			  +			
+Voter 1, please enter your choice (1-4): 1
+HArdik		hardiik		haardik		haaarrdik		
+  !			  %			  *			  +			
+Voter 2, please enter your choice (1-4): 1
+HArdik		hardiik		haardik		haaarrdik		
+  !			  %			  *			  +			
+Voter 3, please enter your choice (1-4): 3
+HArdik		hardiik		haardik		haaarrdik		
+  !			  %			  *			  +			
+Voter 4, please enter your choice (1-4): 2
+HArdik		hardiik		haardik		haaarrdik		
+  !			  %			  *			  +			
+Voter 5, please enter your choice (1-4): 1
+HArdik		hardiik		haardik		haaarrdik		
+  !			  %			  *			  +			
+Voter 6, please enter your choice (1-4): 4
+HArdik		hardiik		haardik		haaarrdik		
+  !			  %			  *			  +			
+Voter 7, please enter your choice (1-4): 2
+HArdik		hardiik		haardik		haaarrdik		
+  !			  %			  *			  +			
+Voter 8, please enter your choice (1-4): 1
+
+-----RESULT-----
+The winner is: HArdik
+Candidate Symbol: !
+with 4 votes!
+
+
+*/
